@@ -1,0 +1,83 @@
+  .App {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 20px auto ;
+  border: 2px solid #41444b;
+  background-color:white;
+  width: 450px;
+  
+}
+
+body{
+  background-color: #89c9b8;
+}
+
+.App-header {
+  background-color: #41444b;
+  height: 80px;
+  width: 390px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  top: -110px;
+  
+}
+
+h1 {
+  display: block;
+  padding: 17px;
+  border: 20px;
+}
+
+#inputText {
+  padding: 20px 20px 5px 20px;
+  position: relative;
+  top: -110px;
+  
+}
+
+#input {
+  border-bottom: 2px solid;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+  width: 350px;
+  color: #41444b;
+  padding-bottom: 2px;
+  padding-top: 5.5px;
+  margin-right: 2px;
+  background-color: white;
+  outline: none;
+}
+
+#addButton{
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 1px;
+  background-color: white;
+  color: #41444b;
+  border: 1,5px solid #41444b;
+  width: 35px;
+  
+}
+
+#list {
+  position: relative;
+  top: -100px;
+  text-align: left;
+  
+}
+li {
+  list-style-type: circle;
+}
+
+img {
+  width: 100px;
+  position: relative;
+  top: -35px;
+  left: 140px;
+  z-index: 10;
+}
